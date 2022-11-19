@@ -1,38 +1,116 @@
-.App {
+.emphasis {
+  color: #B93160;
+  font-weight: 700;
+}
+
+footer {
+  color: #B93160;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 14px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  box-sizing: border-box;
+  min-height: 100%;
+  min-width: 100%;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+.app-logo {
+  display: flex;
+  color: #EF946C;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 40px;
+}
+
+.app-logo-scribble {
+  position: relative;
+  top: 70px;
+  left: -130px;
+}
+
+.app-action-scribble {
+  position: relative;
+  top: 43px;
+  right: -20px;
+}
+
+.hero-content-middle-scribble {
+ position: absolute;
+ left: 520px;
+ bottom: 80px;
+}
+
+.hero-content-bottom-scribble {
+ position: absolute;
+ left: 530px;
+ bottom: -150px;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+} */
+
+.app-header {
+  display: grid;
+  grid-template: 1fr / 1fr 2fr 1fr;
+  height: 100px;
+  margin-bottom: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-nav {
+  grid-column: -1;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 20px;
+  padding: 0px 20px;
+  color: #EF946C;
+}
+
+.hero {
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-content: center;
+  /* flex-grow: 2; */
+  margin: auto;
+}
+
+.hero-banner {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  gap: 20px;
+  color: #f8f8f8;
+  height: 100px;
+}
+.hero-content {
+ margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #EF946C;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  margin: 0;
+  font-size: 38px;
+  font-weight: 500;
+  color: #f8f8f8;
+}
+
+p {
+  color: #f8f8f8;
 }
