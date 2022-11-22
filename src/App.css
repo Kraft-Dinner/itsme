@@ -5,18 +5,20 @@
 
 footer {
   color: #B93160;
-  font-family:'Times New Roman', Times, serif;
+  font-family:'Figtree', sans-serif;
   font-size: 14px;
   text-align: center;
+}
+
+footer > a:visited {
+  color: #B93160;
 }
 
 .app {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  box-sizing: border-box;
-  min-height: 100%;
-  min-width: 100%;
+  min-height: 100vh;
+  min-width: 100vw;
   padding: 20px;
 }
 
@@ -30,39 +32,54 @@ footer {
 
 .app-logo-scribble {
   position: relative;
-  top: 70px;
-  left: -130px;
+  top: 85px;
+  left: -80px;
 }
 
-.app-action-scribble {
+.app-linkedin-scribble {
   position: relative;
-  top: 43px;
-  right: -20px;
+  top: 115px;
+  left: 150px;
+  width: 41px;
+  height: 41px;
+}
+
+.app-mail-scribble {
+  position: relative;
+  top: 63px;
+  left: 145px;
+  width: 41px;
+  height: 41px;
+}
+
+.app-icon-arrows {
+  position: relative;
+  top: 55px;
+  left: 80px;
+}
+
+.hero-banner > img {
+  width: 84px;
+  height: 84px;
 }
 
 .hero-content-middle-scribble {
  position: absolute;
  left: 520px;
- bottom: 80px;
+ top: 120px;
 }
 
 .hero-content-bottom-scribble {
  position: absolute;
  left: 530px;
- bottom: -150px;
+ top: 350px;
 }
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
 
 .app-header {
   display: grid;
   grid-template: 1fr / 1fr 2fr 1fr;
   height: 100px;
-  margin-bottom: 0px;
+  margin-bottom: 80px;
 }
 
 .app-nav {
@@ -73,6 +90,7 @@ footer {
   gap: 20px;
   padding: 0px 20px;
   color: #EF946C;
+  font-size: 28px;
 }
 
 .hero {
@@ -80,21 +98,24 @@ footer {
   display: flex;
   flex-direction: column;
   align-content: center;
-  /* flex-grow: 2; */
   margin: auto;
+  min-height: 500px;
+  gap: 100px;
 }
 
 .hero-banner {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   gap: 20px;
   color: #f8f8f8;
   height: 100px;
 }
-.hero-content {
- margin: auto;
+
+.hero-banner > span {
+  font-family: 'Shadows Into Light', sans-serif;
+  font-size: 42pt;
 }
 
 h1 {

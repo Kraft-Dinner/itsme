@@ -1,16 +1,22 @@
 import React from 'react'
 import middleScribble from '../images/middle_scribble.svg'
 import bottomScribble from '../images/bottom_scribble.svg'
+import coffee from '../images/la_coffee.svg'
+import headphones from '../images/ph_headphones-light.svg'
+import design from '../images/clarity_design-line.svg'
+import terminal from '../images/ant-design_code-outlined.svg'
  
 function Hero() {
     return (
         <div className="hero">
             <div className="hero-banner">
-                <span>Icons</span>
-                <span>+</span>
-                <span>Go</span>
-                <span>+</span>
-                <span>Here</span>
+                <img src={coffee} alt="Coffee" />
+                <span className="emphasis">+</span>
+                <img src={headphones} alt="Music" />
+                <span className="emphasis">+</span>
+                <img src={design} alt="Design" />
+                <span className="emphasis">+</span>
+                <img src={terminal} alt="Develop" />
             </div>
             <div className="hero-content">
                 <section>
