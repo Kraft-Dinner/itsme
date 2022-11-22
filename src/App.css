@@ -8,10 +8,24 @@ footer {
   font-family:'Figtree', sans-serif;
   font-size: 14px;
   text-align: center;
+
 }
 
-footer > a:visited {
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
   color: #B93160;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }
 
 .app {
@@ -38,18 +52,18 @@ footer > a:visited {
 
 .app-linkedin-scribble {
   position: relative;
-  top: 115px;
-  left: 150px;
-  width: 41px;
-  height: 41px;
+  top: 113px;
+  left: 152px;
+  width: 39px;
+  height: 39px;
 }
 
 .app-mail-scribble {
   position: relative;
   top: 63px;
   left: 145px;
-  width: 41px;
-  height: 41px;
+  width: 39px;
+  height: 39px;
 }
 
 .app-icon-arrows {
@@ -91,6 +105,7 @@ footer > a:visited {
   padding: 0px 20px;
   color: #EF946C;
   font-size: 28px;
+  font-weight: 300;
 }
 
 .hero {
