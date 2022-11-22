@@ -13,12 +13,12 @@ function Header() {
             </div>
             <nav className="app-nav">
                 <a href="mailto:kristen.dergousoff@gmail.com" >
-                    <img src={mailScribble} className="app-mail-scribble" alt="Check it out!" />
+                    <img src={mailScribble} className="app-mail-scribble" alt="E-mail" />
                 </a>
                 <a href="https://www.linkedin.com/in/kristendergousoff/" target="_blank" rel="noreferrer">
-                    <img src={linkedinScribble} className="app-linkedin-scribble" alt="My LinkedIn!" />
+                    <img src={linkedinScribble} className="app-linkedin-scribble" alt="LinkedIn" />
                 </a>
-                <img src={arrows } className="app-icon-arrows" />
+                <img src={arrows } className="app-icon-arrows" alt="" />
                 <span>Resumè</span>
             </nav>
         </header>
