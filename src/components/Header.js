@@ -19,7 +19,7 @@ function Header() {
                     <img src={linkedinScribble} className="app-linkedin-scribble" alt="My LinkedIn!" />
                 </a>
                 <img src={arrows } className="app-icon-arrows" />
-                <span>Resumè</span>
+                <a href={process.env.PUBLIC_URL + '/Kristen_Dergousoff_Resume_2022.pdf'} target="_blank" rel="noreferrer" >Resumè</a>
             </nav>
         </header>
     );

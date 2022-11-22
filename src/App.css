@@ -8,7 +8,18 @@ footer {
   font-family:'Figtree', sans-serif;
   font-size: 14px;
   text-align: center;
+}
 
+footer > a:visited {
+  color:#B93160;
+}
+
+nav > a {
+  color:#EF946C;
+}
+
+nav > a:visited {
+  color:#EF946C;
 }
 
 a:link {
@@ -17,7 +28,6 @@ a:link {
 
 a:visited {
   text-decoration: none;
-  color: #B93160;
 }
 
 a:hover {
