@@ -17,7 +17,7 @@ p {
   color: #f8f8f8;
 }
 
-a:link, :visited, :hover, :active {
+a:link, a:visited, a:hover, a:active {
   color: #B93160;
   text-decoration: none;
 }
