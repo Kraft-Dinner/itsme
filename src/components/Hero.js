@@ -9,7 +9,7 @@ import terminal from '../images/ant-design_code-outlined.svg'
 function Hero() {
     return (
         <div className="hero">
-            <div className="hero-banner">
+            <div className="hero__banner">
                 <img src={coffee} alt="Coffee" />
                 <span className="emphasis">+</span>
                 <img src={headphones} alt="Music" />
@@ -18,15 +18,15 @@ function Hero() {
                 <span className="emphasis">+</span>
                 <img src={terminal} alt="Develop" />
             </div>
-            <div className="hero-content">
+            <div className="hero__content">
                 <section>
                     <h1>Software Engineer</h1>
                     <h2>Aspiring Full-Stack Developer</h2>
-                    <img src={middleScribble} className="hero-content-middle-scribble" alt="& Baking Enthusiast!" />
+                    <img src={middleScribble} className="hero__content--middle" alt="& Baking Enthusiast!" />
                     <p>
                         I create <span className="emphasis">experiences</span> through software and design.
                     </p>
-                    <img src={bottomScribble} className="hero-content-bottom-scribble" alt="& Cupcakes!" />
+                    <img src={bottomScribble} className="hero__content--bottom" alt="& Cupcakes!" />
                 </section>
             </div>
         </div>
