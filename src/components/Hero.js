@@ -10,13 +10,13 @@ function Hero() {
     return (
         <div className="hero">
             <div className="hero__banner">
-                <img src={coffee} alt="Coffee" />
+                <img src={coffee} alt="Coffee" title="Coffee" />
                 <span className="emphasis">+</span>
-                <img src={headphones} alt="Music" />
+                <img src={headphones} alt="Music" title="Music"/>
                 <span className="emphasis">+</span>
-                <img src={design} alt="Design" />
+                <img src={design} alt="Design" title="Design"/>
                 <span className="emphasis">+</span>
-                <img src={terminal} alt="Develop" />
+                <img src={terminal} alt="Develop" title="Develop"/>
             </div>
             <div className="hero__content">
                 <section>
