@@ -18,7 +18,7 @@ function Header() {
                 <a href="https://www.linkedin.com/in/kristendergousoff/" target="_blank" rel="noreferrer">
                     <img src={linkedinScribble} className="app__linkedin scribble" alt="LinkedIn" />
                 </a>
-                <img src={arrows} className="app__arrows scribble" />
+                <img src={arrows} className="app__arrows scribble" alt=""/>
                 <a href={process.env.PUBLIC_URL + '/Kristen_Dergousoff_Resume_2022.pdf'} target="_blank" rel="noreferrer" >Resumè</a>
             </nav>
         </header>
