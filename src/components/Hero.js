@@ -8,18 +8,18 @@ import terminal from '../images/ant-design_code-outlined.svg'
  
 function Hero() {
     return (
-        <div className="hero">
-            <div className="hero__banner">
-                <img src={coffee} alt="Coffee" title="Coffee" />
-                <span className="emphasis">+</span>
-                <img src={headphones} alt="Music" title="Music"/>
-                <span className="emphasis">+</span>
-                <img src={design} alt="Design" title="Design"/>
-                <span className="emphasis">+</span>
-                <img src={terminal} alt="Develop" title="Develop"/>
-            </div>
-            <div className="hero__content">
-                <section>
+        <section>
+            <div className="hero">
+                <div className="hero__banner">
+                    <img src={coffee} alt="Coffee" title="Coffee" />
+                    <span className="emphasis">+</span>
+                    <img src={headphones} alt="Music" title="Music"/>
+                    <span className="emphasis">+</span>
+                    <img src={design} alt="Design" title="Design"/>
+                    <span className="emphasis">+</span>
+                    <img src={terminal} alt="Develop" title="Develop"/>
+                </div>
+                <div className="hero__content">
                     <h1>Software Engineer</h1>
                     <h2>Aspiring Full-Stack Developer</h2>
                     <img src={middleScribble} className="hero__content--middle" alt="& Baking Enthusiast!" />
@@ -27,9 +27,9 @@ function Hero() {
                         I create <span className="emphasis">experiences</span> through software and design.
                     </p>
                     <img src={bottomScribble} className="hero__content--bottom" alt="& Cupcakes!" />
-                </section>
+                </div>
             </div>
-        </div>
+        </section>
     );
 }
 

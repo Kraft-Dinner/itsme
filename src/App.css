@@ -13,6 +13,11 @@ h2 {
   color: #f8f8f8;
 }
 
+section {
+  /* height: 100vh; */
+  margin: 30px;
+}
+
 p {
   color: #f8f8f8;
 }
@@ -20,10 +25,6 @@ p {
 a:link, a:visited, a:hover, a:active {
   color: #B93160;
   text-decoration: none;
-}
-
-nav > a:link, nav > a:visited, nav > a:hover, nav > a:active {
-  color:#EF946C;
 }
 
 footer {
@@ -38,82 +39,45 @@ footer {
   font-weight: 700;
 }
 
-.scribble {
-  position: relative;
-}
-
-/* Component specific styles */
-
 /* Overall app component */
 .app {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  min-width: 100vw;
-  padding: 20px;
+  margin: 0;
 }
 
 /* Header components */
-.app__header {
-  display: grid;
-  grid-template: 1fr / 1fr 2fr 1fr;
-  height: 100px;
-  margin-bottom: 80px;
-}
 
-.app__nav {
-  grid-column: -1;
+.nav-bar {
+  background-color: #1a1f16;
+  height: 50px;
   display: flex;
-  align-items: center;
   justify-content: right;
+  align-items: center;
   gap: 20px;
   padding: 0px 20px;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  margin: 0;
+  border-bottom: 1px black solid;
+}
+
+.nav-bar-link {
   color: #EF946C;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 300;
-}
-
-.app__logo {
-  display: flex;
-  color: #EF946C;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 40px;
-}
-
-.app__logo--text {
-  top: 85px;
-  left: -80px;
-}
-
-.app__linkedin {
-  top: 113px;
-  left: 152px;
-  width: 39px;
-  height: 39px;
-}
-
-.app__mail {
-  top: 63px;
-  left: 145px;
-  width: 39px;
-  height: 39px;
-}
-
-.app__arrows {
-  top: 55px;
-  left: 80px;
+  margin: 0;
 }
 
 /* Hero components */
 .hero {
-  position: relative;
   display: flex;
   flex-direction: column;
-  align-content: center;
-  margin: auto;
-  min-height: 500px;
+  padding-top: 100px;
   gap: 100px;
+  min-height: 100vh;
+  margin: 0;
 }
 
 .hero__banner {
@@ -124,6 +88,7 @@ footer {
   gap: 20px;
   color: #f8f8f8;
   height: 100px;
+  margin: 0 auto;
 }
 
 .hero__banner > img {
@@ -136,14 +101,19 @@ footer {
   font-size: 42pt;
 }
 
+.hero__content {
+  position: relative;
+  margin: 0 auto;
+}
+
 .hero__content--middle {
   position: absolute;
- left: 520px;
- top: 120px;
+  left: 520px;
+  bottom: 80px;
 }
 
 .hero__content--bottom {
   position: absolute;
- left: 530px;
- top: 350px;
+  left: 530px;
+  top: 150px;
 }

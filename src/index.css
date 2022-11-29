@@ -10,10 +10,10 @@ html, body {
   font-size: 24px;
 }
 
-/* Use viewport-relative units to cover page fully */
+/* Use percentages so the size is applied independently of the scrollbars */
 body {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
 
 
