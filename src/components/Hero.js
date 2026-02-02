@@ -20,8 +20,8 @@ function Hero() {
             </div>
             <div className="hero__content">
                 <section>
-                    <h1>Software Engineer</h1>
-                    <h2>Aspiring Full-Stack Developer</h2>
+                    <h1>Senior Software Engineer</h1>
+                    <h2>Full-Stack Developer</h2>
                     <img src={middleScribble} className="hero__content--middle" alt="& Baking Enthusiast!" />
                     <p>
                         I create <span className="emphasis">experiences</span> through software and design.
